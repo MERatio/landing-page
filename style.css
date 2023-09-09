@@ -20,16 +20,12 @@ body {
 	box-sizing: inherit;
 }
 
-.nav,
-.hero {
-	background-color: #1f2937;
-}
-
 .nav {
+	background-color: #1f2937;
+	padding: 0 var(--gutter);
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 0 var(--gutter);
 }
 
 .nav-logo {
@@ -46,11 +42,13 @@ body {
 
 .nav-link {
 	text-decoration: none;
+	font-size: 18px;
 	color: var(--link-color);
 }
 
 .hero {
 	height: 70vh;
+	background-color: #1f2937;
 	padding: 0 var(--gutter);
 	display: flex;
 	justify-content: center;
