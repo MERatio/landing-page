@@ -138,4 +138,19 @@ body {
 
 .quote-section {
 	background-color: var(--link-color);
+	padding: 60px 20%;
+}
+
+.quote {
+	font-size: 36px;
+	font-weight: 300;
+	font-style: italic;
+	color: var(--dark-blue);
+}
+
+.quote-author {
+	font-size: 24px;
+	font-weight: 700;
+	color: var(--dark-blue);
+	text-align: right;
 }
