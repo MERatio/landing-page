@@ -154,3 +154,39 @@ body {
 	color: var(--dark-blue);
 	text-align: right;
 }
+
+.cta-container {
+	background-color: var(--white);
+	padding: 80px var(--gutter);
+}
+
+.cta {
+	background-color: var(--blue);
+	padding: 40px 120px;
+	border-radius: 8px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.cta-header {
+	font-size: 26px;
+	font-weight: 700;
+	color: var(--white);
+	margin: 0;
+}
+
+.cta-subtext {
+	color: var(--link-color);
+	margin: 0;
+}
+
+.cta-btn {
+	font-size: 18px;
+	font-weight: 700;
+	color: var(--white);
+	background-color: transparent;
+	border: 2px solid var(--white);
+	padding: 5px 25px;
+	border-radius: 6px;
+}
