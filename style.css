@@ -1,0 +1,43 @@
+html {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: "Roboto", sans-serif;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+.nav,
+.hero {
+	background-color: #1f2937;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 15%;
+}
+
+.nav-logo {
+	font-size: 24px;
+	color: #f9faf8;
+	font-weight: 700;
+}
+
+.nav-list {
+	list-style-type: none;
+	display: flex;
+	gap: 20px;
+}
+
+.nav-link {
+	text-decoration: none;
+	color: #e5e7eb;
+}
